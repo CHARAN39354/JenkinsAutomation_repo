@@ -10,6 +10,7 @@ public class JenkinsTest {
 	public void lanuch() {
 		WebDriver driver=new ChromeDriver();
 		Reporter.log("JnekinsTest class executed",true);
+		Reporter.log("On poll scm  executed",true);
 	}
 	}
 
